@@ -12,7 +12,7 @@ space = " "
 WORD_RE = re.compile(r"\b[\w']+\b")
 
 #1. get user's text posts and remove html tags, replace smart quotes, remove URLs
-tumblr_key = "vm5ftXi9EZaqQehw8ezEq84QcqLWMVyTyPpcjxLiJIU0SWf0Ej"
+tumblr_key = ""
 offsets = ["0", "20", "40", "60", "80"]
 
 for offset in offsets:
